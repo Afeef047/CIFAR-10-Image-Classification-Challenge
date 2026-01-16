@@ -15,10 +15,10 @@ The **CIFAR-10** dataset consists of 60,000  color images in 10 classes, with 6,
 
 | Level | Strategy | Backbone | Key Techniques | Test Accuracy |
 | --- | --- | --- | --- | --- |
-| **Level 1** | **Baseline** | ResNet-18 | Transfer Learning, Light Augmentation | **0.8896** |
-| **Level 2** | **Intermediate** | ConvNeXt-Tiny | Strong Augmentation, LR Scheduler | **0.9234** |
-| **Level 3** | **Custom** | ConvNeXt-Tiny | Custom MLP Head, Partial Fine-Tuning | **0.9110** |
-| **Level 4** | **Ensemble** | **L2 + L3** | **Weighted Soft-Probability Ensemble** | **0.9309** |
+| **Level 1** | **Baseline** | ResNet-18 | Transfer Learning, Light Augmentation | **0.8978** |
+| **Level 2** | **Intermediate** | ConvNeXt-Tiny | Strong Augmentation, LR Scheduler | **0.9264** |
+| **Level 3** | **Custom** | ConvNeXt-Tiny | Custom MLP Head, Partial Fine-Tuning | **0.9093** |
+| **Level 4** | **Ensemble** | **L2 + L3** | **Weighted Soft-Probability Ensemble** | **0.9330** |
 
 ---
 
